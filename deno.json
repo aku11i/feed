@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "@notionhq/client": "npm:@notionhq/client@2",
+    "feed": "npm:feed@4"
+  },
+  "tasks": {
+    "start": "deno run --allow-net --allow-env --allow-read --allow-write main.ts"
+  }
+}
